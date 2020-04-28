@@ -10,7 +10,7 @@ end
 
 
 def input_to_index(number)
-  input = "#{number}.to_i - 1"
+  input = number.to_1 - 1
 end
 
 def move
