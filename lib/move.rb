@@ -6,12 +6,12 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-def input_to_index(number)
-  integer = number.to_i
-  input = integer - 1
-  input
-end
 
+
+
+def input_to_index(number)
+  input = "#{number}.to_i - 1"
+end
 
 def move
 
