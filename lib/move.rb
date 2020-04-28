@@ -7,7 +7,9 @@ def display_board(board)
 end
 
 def input_to_index(number)
-  number.to_i
+  integer = number.to_i
+  input = integer
+  input
 end
 
 
